@@ -12,31 +12,31 @@
 	<properties>
 		<spring.version>4.0.1.RELEASE</spring.version>
 	</properties>
-<--	<dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>3.8.1</version>
 			<scope>test</scope>
-		</dependency> -->
+		</dependency>
 		<!-- Spring dependencies -->
-<--		<dependency>
+	<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>${spring.version}</version>
-		</dependency>-->
-<--
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
-		</dependency>-->
-<--
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
-		</dependency>-->
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>DemoSpring</finalName>
